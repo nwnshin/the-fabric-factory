@@ -1,0 +1,30 @@
+.banner {
+    background: #111;
+    padding: 0.5rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    box-sizing: border-box;
+}
+.banner i {
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+.banner__column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner__column:first-child {
+    margin-right: 2.5rem;
+}
+.banner__text {
+    font-size: 1.2rem;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+@media screen and (max-width:499px) and (max-device-width:450px) {
+
+}

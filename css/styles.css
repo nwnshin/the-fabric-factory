@@ -1,0 +1,24 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;600;700&family=Noto+Sans+KR:wght@100;300;400;700&display=swap');
+
+@import "reset.css";
+@import "variables.css";
+
+/*component*/
+@import "component/banner.css";
+
+/*page*/
+html { font-size:10px; }
+
+body {
+
+}
+:lang(kr) {font-family: 'Noto Sans KR', sans-serif;}
+:lang(en) {font-family: 'Jost', sans-serif;}
+/*10px은 1rem,12px은 1.2rem,14px은 1.4rem*/
+
+/*icons*/
+.material-icons.md-18 { font-size: 18px;}
+.material-icons.md-24 { font-size: 24px;}
+.material-icons.md-36 { font-size: 36px;}
+.material-icons.md-48 { font-size: 48px;}
