@@ -6,16 +6,23 @@
 
 /*component*/
 @import "component/banner.css";
+@import "component/header.css";
+@import "component/aside.css";
+@import "component/footer.css";
 
 /*page*/
 html { font-size:10px; }
 
-body {
-
+body, a {
+    text-decoration: none;
+    color: black;
 }
 :lang(kr) {font-family: 'Noto Sans KR', sans-serif;}
 :lang(en) {font-family: 'Jost', sans-serif;}
-/*10px은 1rem,12px은 1.2rem,14px은 1.4rem*/
+h5 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
 
 /*icons*/
 .material-icons.md-18 { font-size: 18px;}

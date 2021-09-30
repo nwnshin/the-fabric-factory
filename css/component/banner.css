@@ -1,4 +1,5 @@
 .banner {
+    width: 100vw;
     background: #111;
     padding: 0.5rem 3rem;
     display: flex;
@@ -26,5 +27,6 @@
     white-space: nowrap;
 }
 @media screen and (max-width:499px) and (max-device-width:450px) {
-
+    .banner__column:first-child {margin-right: 0;}
+    .banner__column:nth-child(2) {display: none;}
 }
